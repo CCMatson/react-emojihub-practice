@@ -2,9 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  background-color: black;
+  padding: 10px;
+}
+
+.link{
+  color: white;
+  margin: 10px;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
