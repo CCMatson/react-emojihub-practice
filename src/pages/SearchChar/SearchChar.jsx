@@ -12,14 +12,18 @@ const SearchChar = () => {
   }
   return (
     <>
-    <h1>Enter a word or number to search for an emoji</h1>
-    <SearchForm handleCharSearch={handleCharSearch} />
-    {chars.map((char, id) => 
-    <div key={char.name}>
-      <h4> {char.name}  </h4> 
-      <h4>  {char.emoji} </h4></div>
-    
-    )}
+      <h1>Enter a word or number to search for an emoji</h1>
+      <SearchForm handleCharSearch={handleCharSearch} />
+      {chars.map((char, id) =>
+        <div key={char.name}>
+          <h4>{char.name}</h4>
+          <h4>{char.emoji}</h4>
+          <h4>Category: {char.category.name}</h4>
+          <h4>Subcategory: {char.sub_category.name}</h4>
+          </div>
+
+
+      )}
 
 
 
