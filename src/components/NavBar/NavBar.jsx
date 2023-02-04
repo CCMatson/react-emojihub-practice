@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <header className="navbar">
 			<Link to="/" className="link">Home</Link>
-      {/* <Link to="/emojis" className="link">Emojis</Link> */}
+      <Link to="/search" className="link">Emoji Search</Link>
     </header>
   );
 };

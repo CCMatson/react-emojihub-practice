@@ -9,8 +9,10 @@ const EmojiDetails =() => {
   return(
     <>
     <div>
-      <h3>Details</h3>
+      <h3>Emoji Details</h3>
       <h2>{emojiDetails.emoji}</h2>
+      <h4>Name : {emojiDetails.name}</h4>
+      <h4>Category : {emojiDetails.category.name}</h4>
     </div>
     </>
   )
